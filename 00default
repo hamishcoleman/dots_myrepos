@@ -1,0 +1,7 @@
+# Ensure that there is always at least one config file in the load dir
+#
+# :dotsctl:
+#   destdir: ~/.dotsctl/myrepos
+# ...
+
+[DEFAULT]

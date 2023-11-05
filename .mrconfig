@@ -1,0 +1,11 @@
+# Configure myrepos to load any config found in the subdir
+#
+# :dotsctl:
+#   destdir: ~/
+#   dpkg:
+#     - myrepos
+#   mkdir:
+#     - ~/.dotsctl/myrepos
+# ...
+
+include = cat ~/.dotsctl/myrepos/*
