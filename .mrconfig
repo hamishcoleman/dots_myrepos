@@ -4,8 +4,6 @@
 #   destdir: ~/
 #   dpkg:
 #     - myrepos
-#   mkdir:
-#     - ~/.dotsctl/myrepos
 # ...
 
 include = cat ~/.dotsctl/myrepos/*
