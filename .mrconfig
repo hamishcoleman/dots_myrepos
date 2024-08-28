@@ -7,3 +7,5 @@
 # ...
 
 include = cat ~/.dotsctl/myrepos/*
+
+# You may find you have used "mr register" and it appends files here
